@@ -1,0 +1,27 @@
+{
+  "clients" : {
+    "flow" : {"enabled" : false},
+    "javascript-typescript-langserver" : {"enabled" : false},
+    "lsp-tsserver" : {"enabled" : true},
+    "typescript-language-server" : {"enabled" : false}
+  },
+              "log_stderr" : true,
+                             "log_payloads" : true,
+
+                                              // Language server configurations
+                                              "clients" : {
+    "lsp-tsserver": {
+      "command": ["lsp-tsserver"],
+      "enabled": true,
+      "languages": [{
+        "languageId": "javascript",
+        "scopes": ["source.js", "source.jsx"],
+        "syntaxes": ["Packages/Babel/JavaScript (Babel).sublime-syntax", "Packages/JavaScript/JavaScript.sublime-syntax"]
+      }, {
+        "languageId": "typescript",
+        "scopes": ["source.ts", "source.tsx"],
+        "syntaxes": ["Packages/TypeScript-TmLanguage/TypeScript.tmLanguage", "Packages/TypeScript-TmLanguage/TypeScriptReact.tmLanguage"]
+      }]
+    }
+  }
+}

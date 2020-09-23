@@ -1,0 +1,29 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+		"SublimeLinter"
+	],
+	"installed_packages":
+	[
+		"Babel",
+		"BracketHighlighter",
+		"Clang Format",
+		"Color Highlighter",
+		"CSScomb",
+		"DocBlockr",
+		"Emmet",
+		"Git",
+		"GitHub Theme",
+		"LSP",
+		"Monokai++",
+		"Package Control",
+		"Pretty JSON",
+		"SideBarEnhancements",
+		"SublimeCodeIntel",
+		"SublimeLinter",
+		"Terminal",
+		"Theme - Monokai Pro",
+		"Vuejs Complete Package"
+	]
+}

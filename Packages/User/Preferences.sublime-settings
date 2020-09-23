@@ -1,0 +1,21 @@
+{
+	"ClangFormat":
+	{
+		"format_on_save": false
+	},
+	"color_scheme": "Monokai Pro.sublime-color-scheme",
+	"default_line_ending": "unix",
+	"font_size": 14,
+	"ignored_packages":
+	[
+		"Emmet",
+		"SublimeLinter"
+	],
+	"only_show_lsp_completions": true,
+	"rulers":
+	[
+		80
+	],
+	"show_line_endings": true,
+	"theme": "Monokai Pro.sublime-theme"
+}
